@@ -2,5 +2,6 @@ root: true
 env:
   node: true
 extends:
+  - '@vue/typescript'
   - plugin:vue/vue3-essential
   - eslint:recommended
